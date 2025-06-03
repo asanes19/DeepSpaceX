@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('/google-sans/ProductSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('/google-sans/ProductSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('/google-sans/ProductSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Product Sans', sans-serif;
+}
+
+.reveal span {
+  display: inline-block;
+}
