@@ -22,7 +22,7 @@ const Hero = () => {
       </video>
 
       {/* Overlay (optional gradient filter) */}
-<div className="absolute inset-0 z-10 bg-gradient-to-b from-[#050505]/10 via-[#050505]/20 to-[#050505] backdrop-blur-sm" />
+<div className="absolute inset-0 z-10 bg-gradient-to-b from-[#050505]/10 via-[#050505]/10 to-[#050505] backdrop-blur-sm" />
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center text-center text-white h-full px-4 space-y-8">
